@@ -9,6 +9,11 @@ void swap(int *a, int  *b)
 
 int main()
 {
+	int* x = (char*) malloc(234);
+
+	if(!x)
+		printf("it's ok");
+
 	int x = 9;
 	printf("HI! x is: %d", x);
 
